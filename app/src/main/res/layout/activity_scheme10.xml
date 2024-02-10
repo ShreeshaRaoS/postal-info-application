@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scheme10"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Post Office Insurance Schemes "
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​Postal Life Insurance​."
+                    android:padding="12dp"
+                    android:textStyle="bold"
+                    android:background="@color/background_grey"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Postal Life Insurance (PLI) was introduced on 1st February 1884.It started as a welfare scheme for the benefit of postal employees and was later extended to the employees of the Telegraph Department in 1888. \nIn 1894, PLI extended insurance cover to female employees of the erstwhile P  T Department at a time when no other insurance company covered female lives. It is the oldest life insurer in this country. Over the years, PLI has grown substantially from a few hundred policies in 1884 to more than 50 Lacs policies as on 31.03.2021. It now covers employees of Central  State Governments, Defence and Para-Military Services, Public Sector Undertakings, Banks, Educational Institutions, Local Bodies, professionals (such as doctors, engineers, chartered accountants, MBAs, lawyers etc.) and employees of companies listed with National Stock Exchange (NSE) / Bombay Stock Exchange (BSE)\nWhole Life Assurance (Suraksha)
+\nThis is a scheme where the assured amount with accrued bonus is payable to the insured either on attaining the age of 80 years, or to his/her legal representatives or assignees on death of the insured, whichever occurs earlier, provided the policy is in force on the date of claim.
+\n
+\nMinimum  Maximum age at entry: 19-55 years
+\nMinimum Sum Assured ₹ 20,000; Maximum ₹ 50 lac
+\nLoan facility after 4 years
+\nSurrender after 3 years
+\nNot eligible for bonus if surrendered before 5 years
+\nCan be converted into Endowment Assurance Policy upto 59 years of age of the insurant provided the date of conversion does not fall within one year of the date of cessation of premium payment or date of maturity.
+\nPremium paying age can be opted for as 55,58 or 60 years
+\nProportionate bonus on reduced sum assured is paid if policy is surrendered
+\nLast declared Bonus- ₹ 76/- per ₹ 1000 sum assured per year​"
+                    android:padding="10dp"
+                    android:textSize="20sp"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/black">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fabButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_margin="16dp"
+                android:contentDescription="Add"
+                android:text="Form"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorPrimary"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fabButton1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_margin="16dp"
+                android:contentDescription="Add"
+                android:text="Learn"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorPrimary"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

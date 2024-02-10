@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Scheme12">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Money Order Service"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="IFS Money Order"
+                    android:padding="12dp"
+                    android:textStyle="bold"
+                    android:background="@color/background_grey"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="​International Financial System (IFS) is software developed by UPU to coordinate international remittance services among the partner countries. At present the service is operational with La Poste Group, France and UAE."
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Features"
+                    android:padding="12dp"
+                    android:textStyle="bold"
+                    android:background="@color/background_grey"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="This service is India Post’s own service. The remittances received under this service are being paid through our eMO service.
+
+Remittances can be received at any of the 17,500 post offices on eMO network.
+The Payee receives the full amount in Indian Rupees.
+Remittances up to INR 50,000 can be received in cash.
+Amount exceeding INR 50,000 to be paid through Cheque subject to a maximum limit of USD 2500.
+Maximum of 30 transactions per person per year.
+Beneficiary has to furnish Unique MO Number (9 digits in case of UAE and 26 digits in case of France) along with valid identification documents like Voter ID Card, Driving License, PAN Card, Ration Card, Aadhar Card, Passport etc. A copy of such document has to be handed over to Post Office staff for their record (KYC Documents).
+Same day payment for remittances booked before cut-off time.
+Payments subject to RBI Guidelines from time to time.
+Payment can be collected from identified Post offices."
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/black">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fabButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_margin="16dp"
+                android:contentDescription="Add"
+                android:text="Form"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorPrimary"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fabButton1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_margin="16dp"
+                android:contentDescription="Add"
+                android:text="Learn"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorPrimary"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

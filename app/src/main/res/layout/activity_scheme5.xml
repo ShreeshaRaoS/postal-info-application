@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scheme5"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Monthly Income Scheme (MIS)  "
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Interest Payable, Rates"
+                    android:padding="12dp"
+                    android:textStyle="bold"
+                    android:background="@color/background_grey"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="From 01.07​.2023, interest rates are as follows:-
+7​.4​ % per annum payable monthly."
+                    android:padding="10dp"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Minimum Amount for opening of account"
+                    android:padding="12dp"
+                    android:textStyle="bold"
+                    android:background="@color/background_grey"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="In multiples of INR 1000/-
+Maximum investment limit is INR 9 lakh in single account and INR 15 lakh in joint account
+An individual can invest maximum INR 9 lakh in MIS (including his share in joint accounts)
+For calculation of share of an individual in joint account, each joint holder have equal share in each joint account."
+                    android:padding="10dp"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Salient features"
+                    android:padding="12dp"
+                    android:textStyle="bold"
+                    android:background="@color/background_grey"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="(a)Who can open:-
+\n(i) a single adult
+\n(ii) Joint Account (up to 3 adults) (Joint A or Joint B))
+\n(iii) a guardian on behalf of minor/ person of unsound mind
+\n(iv) a minor above 10 years in his own name.
+\n\n(b)Deposit:-
+\n(i) Account can be opened with minimum of Rs. 1000 and in multiple of Rs. 1000.
+\n(ii) A maximum of Rs. 9 lakh can be deposited in a single account and 15 lakh in Joint account.
+\n(iii) In a joint account, all the joint holders shall have equal share in investment.
+\n(iv) Deposits/shares in all MIS accounts opened by an individual shall not exceed Rs. 9 lakh.
+\n(iv) Limit for account opened on behalf of a minor as guardian shall be separate.
+\n\n(c)Interest:-
+\n(i) Interest shall be payable on completion of a month from the date of opening and so on till maturity.
+\n(ii) If the interest payable every month is not claimed by the account holder such interest shall not earn any additional interest.
+\n(iii) In case any excess deposit made by the depositor, the excess deposit will be refunded back and only PO Savings Account interest will be applicable from the date of opening of account to the date of refund.
+\n(iv) Interest can be drawn through auto credit into savings account standing at same post office, or ECS. In case of MIS account at CBS Post offices, monthly interest can be credited into savings account standing at any CBS Post Offices.
+\n(v) Interest is taxable in the hand of depositor.
+\n\n(d)Pre-mature closure of account:-
+\n(i) No deposit shall be withdrawn before the expiry of 1 year from the date of deposit.
+\n(ii) If account is closed after 1 year and before 3 year from the date of account opening, a deduction equal to 2% from the principal will be deducted and remaining amount will be paid.
+\n(iii) If account closed after 3 year and before 5 year from the date of account opening, a deduction equal to 1% from the principal will be deducted and remaining amount will be paid.
+\n(iv) Account can be prematurely closed by submitting prescribed application form with pass book at concerned Post Office. ​
+\n\n(e)Maturity:-
+\n(i) Account may be closed on expiry of 5 years from the date of opening by submitting prescribed application form with pass book at concerned Post Office.
+\n(ii) In case the account holder dies before the maturity, the account may be closed and amount will be refunded to nominee/legal heirs. Interest will be paid up to the preceding month, in which refund is made."
+                    android:padding="10dp"
+                    android:textSize="20sp"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/black">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fabButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:contentDescription="Add"
+                android:text="Form"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorPrimary"/>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fabButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:contentDescription="Add"
+                android:text="Calculate"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorPrimary"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fabButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:contentDescription="Add"
+                android:text="Learn"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorPrimary"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

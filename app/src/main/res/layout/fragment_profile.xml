@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/user_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="left"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:text="1. Mail and Package Delivery:"
+            android:textSize="20sp"
+            android:background="@color/white" />
+
+            <TextView
+                android:id="@+id/user_details1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="01dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="Post offices handle the delivery of letters, postcards, parcels, and packages to domestic and international destinations. This includes regular mail as well as express or priority mail options."
+                android:textSize="20sp"
+                android:background="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/user_details2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="left"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="2.Postal Banking:"
+                android:textSize="20sp"
+                android:background="@color/white" />
+
+            <TextView
+                android:id="@+id/user_details12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="01dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="In some countries, post offices provide basic banking services such as savings accounts, money orders, and payment services. Customers can deposit money, withdraw funds, and perform financial transactions at the post office."
+                android:textSize="20sp"
+                android:background="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/user_details3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="left"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="3.Post Office Boxes:"
+                android:textSize="20sp"
+                android:background="@color/white" />
+
+            <TextView
+                android:id="@+id/user_details13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="01dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="Customers can rent post office boxes to receive mail at the post office instead of their residential or business address. This service provides added security and privacy for receiving mail."
+                android:textSize="20sp"
+                android:background="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/user_details4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="left"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="4.Philatelic Services:"
+                android:textSize="20sp"
+                android:background="@color/white" />
+
+            <TextView
+                android:id="@+id/user_details14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="01dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text=" Post offices often sell postage stamps and philatelic products for stamp collectors. They may issue commemorative stamps, special editions, and collectible items related to historical events, famous personalities, or cultural themes."
+                android:textSize="20sp"
+                android:background="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/user_details5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="left"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="5.Registered Mail: "
+                android:textSize="20sp"
+                android:background="@color/white" />
+
+            <TextView
+                android:id="@+id/user_details15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="01dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="Post offices offer registered mail services for sending important or valuable items that require extra security and tracking. Registered mail provides a proof of posting and a record of delivery."
+                android:textSize="20sp"
+                android:background="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/user_details6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="left"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="6.Express and Priority Mail: "
+                android:textSize="20sp"
+                android:background="@color/white" />
+
+            <TextView
+                android:id="@+id/user_details16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="01dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="For urgent or time-sensitive deliveries, post offices may offer express or priority mail services. These services ensure faster delivery with guaranteed time frames, often at an additional cost."
+                android:textSize="20sp"
+                android:background="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/user_details7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="left"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="7.Postal Insurance:"
+                android:textSize="20sp"
+                android:background="@color/white" />
+
+            <TextView
+                android:id="@+id/user_details17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="01dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="Customers can purchase postal insurance to protect their valuable or fragile items during transit. This service provides compensation for loss, damage, or theft of insured items."
+                android:textSize="20sp"
+                android:background="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/user_details8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="left"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="8.Retail Services: "
+                android:textSize="20sp"
+                android:background="@color/white" />
+
+            <TextView
+                android:id="@+id/user_details18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="01dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="Many post offices have retail sections where customers can buy postal supplies such as envelopes, packaging materials, stamps, and other stationery items."
+                android:textSize="20sp"
+                android:background="@color/white"
+                />
+            <TextView
+                android:id="@+id/user_details9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="left"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="9.Address Change and Mail Forwarding:"
+                android:textSize="20sp"
+                android:background="@color/white" />
+
+            <TextView
+                android:id="@+id/user_details19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="01dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="Post offices assist customers with changing their address and forwarding mail from their old address to the new one. This service ensures that mail reaches the intended recipient, even when they have relocated."
+                android:textSize="20sp"
+                android:background="@color/white"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

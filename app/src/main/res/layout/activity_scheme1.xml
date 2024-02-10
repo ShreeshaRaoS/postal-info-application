@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scheme2"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Post Office Savings Account"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Interest Payable, Rates"
+                android:padding="12dp"
+                android:textStyle="bold"
+                android:background="@color/background_grey"
+                android:textSize="20sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="​4.0% per annum on individual / joint accounts"
+                    android:padding="10dp"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Minimum Amount for opening of account"
+                    android:padding="12dp"
+                    android:textStyle="bold"
+                    android:background="@color/background_grey"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="​Minimum INR 500/- for opening"
+                    android:padding="10dp"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Salient features"
+                    android:padding="12dp"
+                    android:textStyle="bold"
+                    android:background="@color/background_grey"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="(a)Who can open​ :-\n\n
+(i)a single adult\n
+(ii)two adults only (Joint A or Joint B)\n
+(iii)a guardian on behalf of minor
+(iv)a guardian on behalf of person of unsound mind ​\n
+(iv)a minor above 10 years in his own name
+Only one account can be opened by an individual as a single account
+Only one account can be opened in the name of minor/above 10 years of age (self)/person of unsound mind
+In case of death of a Joint holder, the surviving holder will be the sole holder, if surviving holder already has single account in his/her name, Joint account have to be closed
+Conversion of single to joint account or vice versa is not allowed
+Nomination is mandatory at the time of opening of account
+Minor after attaining majority has to submit fresh account opening form and KYC documents of his/her name at concerned Post Office for conversion of the in his/her name\n\n
+(b)Deposit and Withdrawal​: - All deposits/ withdrawals shall be in whole rupees only.\n\n
+(i) Minimum deposit amount: - Rs. 500 (subsequent deposit not less than 10 rupees)\n
+(ii) Minimum withdrawal amount: - Rs. 50\n
+(ii)Maximum deposit: - No maximum limit\n
+(iii)No withdrawal will be permitted which effect reducing of minimum balance Rs. 500\n
+(iv) In case account balance not raised to Rs. 500 at the end of financial year Rs. 50 will be deducted as Account Maintenance Fee and if account balance became Nil the account shall stands automatically closed\n
+\n(c)Interest:-
+(i)Interest will be calculated on the basis of minimum balance between 10th of the month and end of the month and allowed in whole rupees only\n
+(ii)No interest will be allowed in a month if balance between 10th and last day of the month falls below Rs. 500\n
+(iii)Interest shall be credited in account at the end of each Financial Year at the interest rate prescribed by Ministry of Finance\n
+(iv)At the time of closure of account, interest will be paid up to the preceding month in which account is closed\n
+(iv)u/s 80TTA of the Income Tax Act, from all Savings Bank Accounts, interest up to Rs. 10,000 earned in a Financial Year is exempted from taxable Income\n
+\n(d)Silent Account: -
+\n(i)If no deposit/withdrawal takes place in an account during continuous three financial years, the account shall be treated as silent/dormant
+\n(ii)Revival of such account can be done by submitting application along with fresh KYC documents and passbook at concerned Post Office
+\n\n​(e)Additional Facilities available on PO Savings Account​
+\n\nTo avail below facilities on your PO Savings Account, kindly download and submit respective form at concerned Post Office
+\n(i)Cheque book
+\n(ii)ATM Card
+\n(iii)ebanking/mobile banking
+\n(iv)Aadhaar Seeding
+\n(v)Atal Pension Yojana (APY)
+\n(vi)Pradhan Mantri Suraksha Bima Yojana (PMSBY)
+\n(vii)Pradhan Mantri Jeevan Jeevan Jyoti Bima Yojana (PMJJBY)"
+                    android:padding="10dp"
+                    android:textSize="20sp"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/black">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fabButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_margin="16dp"
+                android:contentDescription="Add"
+                android:text="Form"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorPrimary"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fabButton1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_margin="16dp"
+                android:contentDescription="Add"
+                android:text="Learn"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorPrimary"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

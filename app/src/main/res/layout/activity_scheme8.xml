@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scheme8"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Time Deposit (TD) "
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Interest Payable, Rates"
+                    android:padding="12dp"
+                    android:textStyle="bold"
+                    android:background="@color/background_grey"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Interest payable annually but calculated quarterly."
+                    android:padding="10dp"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Minimum Amount for opening of account"
+                    android:padding="12dp"
+                    android:textStyle="bold"
+                    android:background="@color/background_grey"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Minimum INR 1000/- and in multiple of 100. No maximum limit."
+                    android:padding="10dp"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Period	                       Rate"
+                    android:padding="12dp"
+                    android:textStyle="bold"
+                    android:background="@color/background_grey"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1yr.A/c	                       6.9%
+\n2yr.A/c	                       7.0%
+\n3yr.A/c	                       7.0​%
+\n5yr.A/c	                       7.5 %
+"
+                    android:padding="10dp"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Salient features"
+                    android:padding="12dp"
+                    android:textStyle="bold"
+                    android:background="@color/background_grey"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="(a)Who can open :-
+\n(i) a single adult
+\n(ii) Joint Account (up to 3 adults) (Joint A or Joint B)
+\n(iii) a guardian on behalf of minor
+\n(iv)a guardian on behalf of person of unsound mind
+\n(v) a minor above 10 years in his own name.
+\nNote:- Any number of account can be opened.
+\n\n(b)Deposits :-
+\n(i) Account type for 1 year, 2 year, 3 year, 5 year.
+\n(ii) Account can be opened with minimum of Rs. 1000 and in multiple of Rs. 100. No maximum limit for investment.
+\n(iii) Interest shall be payable annually, No additional interest shall be payable on the amount of interest that has become due for payment but not withdrawn by the account holder.
+\n(iv)The annual interest may be credited to the savings account of the account holder by submitting application.
+\n(v) The investment under 5 year TD qualifies for the benefit of section 80C of Income Tax Act, 1961.
+\n\n(c)Maturity :-
+\n(i) Deposit amount shall be repayable after expiry of 1 year, 2 year, 3 year, 5 year (as the case may be) from the date of opening.
+\n\n(d)Extension of Account :-
+\n(i) On maturity depositor may further extend TD account for another tenure for which account was initially opened.
+\n(ii) TD account can be extended from date of maturity within the following prescribed period.. 1 year TD = within 6 months of maturity. 2 year TD = within 12 months of maturity. 3/5 year TD = within 18 months of maturity.
+\n(iii) At the time of opening of account depositor can submit request for extension of account from the date of maturity.
+\n(iv)TD account can be extended after maturity by submitting prescribed application form at concerned Post Office along with passbook.
+\n(v) Interest rate applicable to respective TD account on the day of maturity shall be applicable to the extended period.
+\n\n(e)Premature closure of Account :-
+\n(i)No deposit shall be withdrawn before the expiry of six months from the date of deposit.
+\n(ii) If TD account closed after 6 month but before 1 year, PO Savings Account Interest rate will be applicable.
+\n(iii) If 2/3/5 year TD account prematurely closed after 1 year, interest shall be calculated 2 % less than of TD interest rate (i.e. 1/2/3 years) for completed years, and for part period less than a year, PO Savings Interest rates will be applicable.
+\n(iv)TD account can be closed prematurely by submitting prescribed application form with pass book at concerned Post Office.
+\n\n(f)Pledging of TD account :-
+\n(i) A TD account may be pledged or transferred as security, by submitting prescribed application form at concerned Post Office supported with acceptance letter from the pledgee.
+\n(ii) Transfer/pledging can be made to the following authorities.
+\nThe President of India/Governor of the State.
+\nRBI/Scheduled Bank/Co-operative Society/Co-operative Bank.
+\nCorporation (public/private)/Govt. Company/Local Authority.
+\nHousing finance company."
+                    android:padding="10dp"
+                    android:textSize="20sp"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/black">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fabButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:contentDescription="Add"
+                android:text="Form"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorPrimary"/>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fabButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:contentDescription="Add"
+                android:text="Calculate"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorPrimary"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fabButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:contentDescription="Add"
+                android:text="Learn"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorPrimary"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

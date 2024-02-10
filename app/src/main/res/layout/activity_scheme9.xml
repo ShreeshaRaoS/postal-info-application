@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scheme9"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text=" Sukanya Samriddhi Yojana (SSY) "
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Interest Payable, Rates"
+                    android:padding="12dp"
+                    android:textStyle="bold"
+                    android:background="@color/background_grey"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rate of interest 8.0​​% Per Annum(with effect from 01-07-2023 ),calculated on yearly basis ,Yearly compounded."
+                    android:padding="10dp"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Minimum Amount for opening of account"
+                    android:padding="12dp"
+                    android:textStyle="bold"
+                    android:background="@color/background_grey"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Minimum INR. 25​0/-and Maximum INR. 1,50,000/- in a financial year. Subsequent deposit in multiple of INR 50/- Deposits can be made in lump-sum No limit on number of deposits either in a month or in a Financial year"
+                    android:padding="10dp"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Salient features"
+                    android:padding="12dp"
+                    android:textStyle="bold"
+                    android:background="@color/background_grey"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="(a) Who can open account:-
+\n-> By the guardian in the name of girl child below the age of 10 years.
+\n-> Only one account can be opened in India either in Post Office or in any bank in the name of a girl child.
+\n-> This account can be opened for maximum of two girls in a family. Provided in case of twins/triplets girls birth more than two accounts can be opened.
+\n\n​(b) Deposits:-
+\n(i) Account can be opened with minimum initial deposit Rs. 250.
+\n(ii) Minimum deposit in a FY is Rs. 250 and maximum deposit can be made up to Rs. 1.50 lakh (in multiple of Rs.50) in a FY in lumpsum or in multiple installments.
+\n(iii) Deposit can be made maximum up to completion of 15 years from the date of opening.
+\n(iv) If minimum deposit Rs. 250 is not deposited in a account in a FY , the account shall be treated at defaulted account.
+\n(v) Defaulted account can be revived before completion of 15 years from the date of opening of account by paying minimum Rs. 250 + Rs. 50 default for each defaulted year.
+\n(vi) Deposits qualify for deduction under section 80C of Income Tax Act.
+\n\n(c) Interest:-
+\n(i) The account will earn on the prescribed rate notified by Ministry of Finance on quarterly basis.
+\n(ii) The interest shall be calculated for the calendar month on the lowest balance in the account between the close of the fifth day and the end of the month.
+\n(iii) Interest shall be credited to the account at the end of each Financial year.
+\n(iii) Interest shall be credited to the account at the end of each FY where account stands at the end of FY. (i.e. in case of transfer of account from Bank to PO or vice versa)
+\n(iv) Interest earned is tax free under Income Tax Act.
+\n\n(d) Operation of Account:-
+\n-> Account will be operated by the guardian till the girl child attains the age of majority (i.e. 18 years).
+\n\n​(e) Withdrawal:-
+\n(i) Withdrawal may be taken from account after girl child attains age of 18 or passed 10th standard.
+\n(ii) withdrawal may be taken up to 50% of balance available at the end of preceding F.Y.
+\n(iii) withdrawal may be made in one lump sum or in installments, not exceeding one per year, for a maximum of five years, subject to the ceiling specified and subject to actual requirement of fee/other charges.
+\n\n(f) Premature closure:-
+\n(i) Account may be prematurely closed after 5 years of account opening on the following conditions : -
+\n-> On the death of account holder. (from date of death to date of payment PO Savings Account interest rate will be applicable).
+\n-> On extreme compassionate grounds
+\n(i) Life threatening decease of a/c holder.
+\n(ii) Death of the guardian by whom account operated.
+\n(iii) Complete documentation and application required for such closure.
+\n(vi) For premature closure of account submit prescribed application form along with pass book at concerned Post Office.
+\n\n​(g) Closure on maturity:-
+\n(i) After 21 years from the date of account opening.
+\n(ii) Or at the time of marriage of girl child after attaining age of 18years.(1 month before or 3 month after date of marriage)."
+                    android:padding="10dp"
+                    android:textSize="20sp"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/black">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fabButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:contentDescription="Add"
+                android:text="Form"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorPrimary"/>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fabButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:contentDescription="Add"
+                android:text="Calculate"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorPrimary"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fabButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:contentDescription="Add"
+                android:text="Learn"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorPrimary"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

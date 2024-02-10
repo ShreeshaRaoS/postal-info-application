@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scheme6"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Senior Citizen Savings Scheme (SCSS)  "
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Interest Payable, Rates"
+                    android:padding="12dp"
+                    android:textStyle="bold"
+                    android:background="@color/background_grey"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="From 01.07.2023 , interest rates are as follows:-\n
+8.2 ​% per annum, payable from the date of deposit of 31st March/30th Sept/31st December in the first instance thereafter, interest shall be payable on 31st March, 30th June, 30th Sept and 31st December."
+                    android:padding="10dp"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Minimum Amount for opening of account"
+                    android:padding="12dp"
+                    android:textStyle="bold"
+                    android:background="@color/background_grey"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="There shall be only one deposit in the account in multiple of INR.1000/- maximum not exceeding INR 30 lakh."
+                    android:padding="10dp"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Salient features"
+                    android:padding="12dp"
+                    android:textStyle="bold"
+                    android:background="@color/background_grey"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="(a)Who can open:-
+\n(i) An individual above 60 years of age.
+\n(ii) Retired Civilian Employees above 55 years of age and below 60 years of age, subject to condition that investment to be made within 1 month of receipt of retirement benefits.
+\n(iii) Retired Defense Employees above 50 years of age and below 60 years of age, subject to condition that investment to be made within 1 month of receipt of retirement benefits.
+\n(iv) Account can be opened as individual capacity or jointly with spouse only.
+\n(v) The whole amount of deposit in a joint account shall be attributable to the first account holder only.
+\n\n(b)Deposit:-
+\n(i) Minimum deposit shall be Rs. 1000 and in multiple of 1000, subject to maximum limit up to Rs. 30 lakh in all SCSS accounts opened by an individual.
+\n(ii) In case any excess deposit made in SCSS account, excess amount will be refunded immediately to the depositor and only PO Savings Account Interest rate will be applicable from the date of excess deposit to the date of refund.
+\n(iii) Investment under this scheme qualifies for the benefit of section 80C of Income Tax Act, 1961.
+\n\n(c)Interest:-
+\n(i) Interest shall be payable on quarterly basis and applicable from the date of deposit to 31st March/30th June/30th September/31st December.
+\n(ii) If the interest payable every quarter is not claimed by an account holder, such interest shall not earn additional interest.
+\n(iii) Interest can be drawn through auto credit into savings account standing at same post office, or ECS. In case of SCSS account at CBS Post offices, monthly interest can be credited into savings account standing at any CBS Post Offices.
+\n(iv) Interest is taxable if total interest in all SCSS accounts exceeds Rs.50,000/- in a financial year and TDS at the prescribed rate shall be deducted from the total interest paid. No TDS will be deducted if form 15 G/15H is submitted and accrued interest is not above prescribed limit.
+\n\n(d)Premature Closure:-
+\n(i) Account can be prematurely closed any time after date of opening.
+\n(ii) If account closed before 1 year, no interest will be payable and if any interest paid in account shall be recovered from principle.
+\n(iii) If account closed after 1 year but before 2 year from the date of opening, an amount equal to 1.5 % will be deducted from principal amount.
+\n(iv) If account closed after 2 year but before 5 year from the date of opening, an amount equal to 1 % will be deducted from principal amount.
+\n(v) Extended account can be closed after the expiry of one year from the date of extension of the account without any deduction.
+\n\n(e)Account closure on maturity:-
+\n(i) Account may be closed after 5 year from the date of opening by submitting prescribed application form with passbook at concerned Post Office.
+\n(ii) In case of death of account holder, from the date of death, account shall earn interest at the rate of PO Savings Account.
+\n(iii) In case spouse is a joint holder or a sole nominee, account can be continued till maturity if spouse is eligible to open SCSS account and not have another SCSS Account.
+\n\n(f)Extension of Account:-
+\n(i) Account holder may extend the account for further period for 3 years from the date of maturity by submitting prescribed form with passbook at concerned post office.
+\n(ii) Account can be extended within 1 year of maturity.
+\n(iii) Extended account shall earn interest at the rate applicable on the date of maturity."
+                    android:padding="10dp"
+                    android:textSize="20sp"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/black">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fabButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:contentDescription="Add"
+                android:text="Form"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorPrimary"/>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fabButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:contentDescription="Add"
+                android:text="Calculate"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorPrimary"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fabButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:contentDescription="Add"
+                android:text="Learn"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/colorPrimary"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

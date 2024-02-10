@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SCHEMES">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="130dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/scheme1"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/tv_border"
+                android:text="Post Office Savings Account"
+                android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/scheme2"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="National Savings Certificates (NSC)"
+                    android:textSize="20sp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/tv_border"/>
+
+                <!-- Rest of your TextViews -->
+
+            <TextView
+                android:id="@+id/scheme3"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Public Provident Fund (PPF)"
+                android:textSize="20sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/tv_border"/>
+
+            <TextView
+                android:id="@+id/scheme4"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Kisan Vikas Patra (KVP)"
+                android:textSize="20sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/tv_border"/>
+
+            <TextView
+                android:id="@+id/scheme5"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Monthly Income Scheme (MIS)"
+                android:textSize="20sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/tv_border"/>
+
+            <TextView
+                android:id="@+id/scheme6"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Senior Citizen Savings Scheme (SCSS)"
+                android:textSize="20sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/tv_border"/>
+
+            <TextView
+                android:id="@+id/scheme7"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Recurring Deposit (RD)"
+                android:textSize="20sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/tv_border"/>
+
+            <TextView
+                android:id="@+id/scheme8"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Time Deposit (TD)"
+                android:textSize="20sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/tv_border"/>
+
+            <TextView
+                android:id="@+id/scheme9"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Sukanya Samriddhi Yojana (SSY)"
+                android:textSize="20sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/tv_border"/>
+
+            <TextView
+                android:id="@+id/scheme10"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Post Office Insurance Schemes"
+                android:textSize="20sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/tv_border"/>
+
+            <TextView
+                android:id="@+id/scheme11"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="National Pension System (NPS)"
+                android:textSize="20sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/tv_border"/>
+
+            <TextView
+                android:id="@+id/scheme12"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Money Order Service"
+                android:textSize="20sp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/tv_border"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

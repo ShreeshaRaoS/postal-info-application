@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "106979944624",
+    "project_id": "login-be81f",
+    "storage_bucket": "login-be81f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106979944624:android:73fd40435044a586393375",
+        "android_client_info": {
+          "package_name": "ajiet.ise.postalinfoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106979944624-3j5cdf4tesajllf9r65ludni4t5st4rg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6CgN2jIYukXBzACB0nfBNDSkuyKbEgds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106979944624-3j5cdf4tesajllf9r65ludni4t5st4rg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

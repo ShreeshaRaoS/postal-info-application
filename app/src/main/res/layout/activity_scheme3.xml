@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scheme3"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="The Public Provident Fund (PPF) "
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Interest Payable, Rates"
+                android:padding="12dp"
+                android:textStyle="bold"
+                android:background="@color/background_grey"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="From 01.07.2023, interest rates are as follows:-
+\n7.1 % per annum (compounded yearly)."
+                android:padding="10dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Minimum Amount for opening of account"
+                android:padding="12dp"
+                android:textStyle="bold"
+                android:background="@color/background_grey"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Minimum INR. 500/- Maximum INR. 1,50,000/- in a financial year.
+Deposits can be made in lump-sum or in ​installments."
+                android:padding="10dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Salient features"
+                android:padding="12dp"
+                android:textStyle="bold"
+                android:background="@color/background_grey"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(a)Who can open:-
+\n\n(i) a single adult by a resident Indian.
+\n(ii) a guardian on behalf of minor/ person of unsound mind . ​
+\nNote:- Only one account can be opened all across the country either in Post Office or any Bank.
+\n\n(b) Deposit:-
+\n(i) Minimum deposit Rs. 500 in a Financial Year and Maximum deposit is Rs. 1.50 lakh in a FY
+\n(ii) Maximum limit of Rs. 1.50 lakh shall be inclusive of the deposits made in his/her own account and in the account opened on behalf of minor.
+\n(iii) Amount can be deposited in any number of installments in a FY in multiple of Rs. 50 and maximum up to Rs. 1.50 lakh.
+\n(iv) Account can be opened by cash/cheque and in case of cheque the date of realization of cheque in Govt. account shall be date of opening of account/subsequent deposit in account.
+\n(v) Deposits qualify for deduction under section 80C of Income Tax Act.
+\n(c) Discontinuation of account:-
+\n(i) If in any financial year, minimum deposit of Rs.500/- is not made, the said PPF account shall become discontinued.
+\n(ii) Loan/withdrawal facility is not available on discontinued accounts.
+\n(iii) Discontinued account can be revived by the depositor before maturity of the account by deposit minimum subscription (i.e. Rs. 500) + Rs. 50 s default fee for each defaulted year.
+\n(iv) The total deposit in a year, shall be inclusive of deposits made in respect of years of default of previous financial years.
+\n\n(d) Interest:-
+\n(i) Interest shall be applicable as notified by Ministry of Finance on quarterly basis.
+\n(ii) The interest shall be calculated for the calendar month on the lowest balance in the account between the close of the fifth day and the end of the month.
+\n(iii) Interest shall be credited to the account at the end of each Financial year.
+\n(iv) Interest shall be credited to the account at the end of each FY where account stands at the end of FY. (i.e. in case of transfer of account from Bank to PO or vice versa)
+(\nv) Interest earned is tax free under Income Tax Act.
+\n\n(e) Loan:-
+\n(i) Loan can be taken after the expiry of one year from the end of the FY in which the initial subscription was made.(i.e. A/c open during 2010-11, loan can be taken in 2012-13).
+\n(ii) Loan can be taken before expiry of five years from the end of the year in which the initial subscription was made.
+\n(iii) Loan can be taken up to 25% of balance to his credit at the end of the second year immediately preceding the year in which loan is applied. (i.e. if loan taken during 2012-13, 25% of balance credit on 31.03.2011)
+\n(iv) Only one loan can be taken in a Financial Year.
+\n(v) Second loan shall not be provided till first loan was not repaid.
+\n(vi) If loan repaid within 36 month of the loan taken, loan interest rate @ 1% per annum shall be applicable.
+\n(vii) If loan repaid after 36 month of the loan taken loan interest rate @ 6% per annum shall be applicable from the date of loan disbursement.
+\n\n(f) Withdrawal:- ​
+\n(i) A subscriber can take 1 withdrawal during a financial after five years excluding year of account opening. (if account open during 2010-11 the withdrawal can be taken during or after 2016-17)
+\n(ii) Amount of withdrawal can be taken up to 50% of balance at the credit at the end of 4th preceding year or at the end of preceding year, whichever is lower. (i.e. withdrawal can be taken in 2016-17, up to 50% of balance as on 31.03.2013 or 31.03.2016 whichever is lower).
+\n\n(g) Maturity:-
+\n(i) Account will be maturity after 15 F.Y. years excluding FY of account opening.
+\n(ii) On maturity depositor has the following options:-
+\n(a) Can take maturity payment by submitting account closure form along with passbook at concerned Post Office
+
+\n(b) Can retain maturity value in his/her account further without deposit, the PPF interest rate will be applicable and payment can be taken any time or can take 1 withdrawal in each FY.
+
+\n(c) Can extend his/her account for further block of 5 years and so on (within one years of maturity) by submitting prescribed extension form at concerned Post Office.
+
+\n(Discontinued account cannot be extended).
+
+\n(d) In extended account with deposits, 1 withdrawal can be taken in each FY subject to maximum limit 60% of balance credit at the time of maturity in the block of 5 years.
+
+\n\n(h) Premature closure:-
+\n(i) Premature closure shall be allowed after 5 years from the end of the year in which the account was opened subject to following conditions.
+\n-> In case of life threatening disease of account holder, spouse or dependent children.
+
+\n-> In case of higher education of account holder or dependent children.
+
+\n-> In case of change of resident status of account holder ( i.e. became NRI).
+
+\n​(ii) At the time of premature closure 1% interest shall be deducted from the date of account opening/date of extension as the case may be.
+\n(iii) Account can be closed on above conditions by submitting prescribed form along with pass book at concerned Post Office.
+\n(i) Death of account holder:-
+\n(i) In case of death of account holder, the account shall be closed and nominee or legal heir(s) shall not be allowed to continue deposits in the account.
+\n(ii) At the time of closure due to death PPF rate of interest shall be paid till the end of the preceding month in which account is closed."
+                android:padding="10dp"
+                android:textSize="20sp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/black">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/fabButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:contentDescription="Add"
+            android:text="Form"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/colorPrimary"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/fabButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_margin="16dp"
+        android:contentDescription="Add"
+        android:text="Calculate"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/colorPrimary"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/fabButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:contentDescription="Add"
+            android:text="Learn"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/colorPrimary"/>
+    </LinearLayout>
+
+
+</LinearLayout>
